@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Facebook" skipped="0" tests="1" time="52.4" timestamp="2018-08-03 12:03:51"><testcase name="Search Friends in BD on Facebook"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.bancolombia.factoring.google.util.readexcel.escribirExcel(readexcel.java:99)&#13;
+co.com.bancolombia.factoring.google.tasks.BuscarAmigos.performAs(BuscarAmigos.java:60)&#13;
+co.com.bancolombia.factoring.google.step_definition.GoogleTranslateStepDefinitions.sheSearchFriends(GoogleTranslateStepDefinitions.java:65)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>

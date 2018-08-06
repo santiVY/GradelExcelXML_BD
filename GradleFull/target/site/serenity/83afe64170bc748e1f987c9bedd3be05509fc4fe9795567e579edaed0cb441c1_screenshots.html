@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="9e4d685abb30a91c0bbc0e9621c98d65163520cf0abce50b50117c2fea6f6cc3.html">Google Translate</a></span>
+                > <span class="truncate-60"><a
+                    href="83afe64170bc748e1f987c9bedd3be05509fc4fe9795567e579edaed0cb441c1.html">Translate from Spanish to English </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 26-07-2018 20:36</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Google Translate</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+I want to use Google Translate
+to translate different words
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Translate from Spanish to English
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="4726a46dfaaa6b1836041eb41bfc29b123dba5fda25e66ea99cb7225f70146da.png" title="Given that juanita opened her browser at facebook home page" width="1922"/>
+                <img src="0082ba89f4492851169d7e6da8df6aa290dab13cbdddb4f6d8c11b5d535e3c3c.png" title="Given that juanita opened her browser at facebook home page" width="1922"/>
+                <img src="4726a46dfaaa6b1836041eb41bfc29b123dba5fda25e66ea99cb7225f70146da.png" title="Juanita goes to #OpenTheBrowser" width="1922"/>
+                <img src="84db2618522c1bef35295002dcc77d5c05f339d41882ff8499f443ea7f319ce0.png" title="Juanita goes to #OpenTheBrowser" width="1922"/>
+                <img src="4726a46dfaaa6b1836041eb41bfc29b123dba5fda25e66ea99cb7225f70146da.png" title="Juanita opens the Facebook login page" width="1922"/>
+                <img src="0082ba89f4492851169d7e6da8df6aa290dab13cbdddb4f6d8c11b5d535e3c3c.png" title="Juanita opens the Facebook login page" width="1922"/>
+                <img src="0632e392339b65e790819d4233b9eeef508b11fc6064bd3b62d1bef862cc59ec.png" title="When inicia sesion en facebook svy9602@hotmail.com y Sonlas12sisabe@" width="1922"/>
+                <img src="84db2618522c1bef35295002dcc77d5c05f339d41882ff8499f443ea7f319ce0.png" title="Juanita enters 'svy9602@hotmail.com' into Facebook email" width="1922"/>
+                <img src="0385de81bab9d5a6b4628b6639ba36932d16e057605a9aac08ce910844878d57.png" title="Juanita enters 'svy9602@hotmail.com' into Facebook email" width="1922"/>
+                <img src="0385de81bab9d5a6b4628b6639ba36932d16e057605a9aac08ce910844878d57.png" title="Juanita enters 'Sonlas12sisabe@' into Facebook pass" width="1922"/>
+                <img src="faccff900c41f5974dad9ff313c1ad5037da9b38b836eeb06b276974d55fede2.png" title="Juanita enters 'Sonlas12sisabe@' into Facebook pass" width="1922"/>
+                <img src="faccff900c41f5974dad9ff313c1ad5037da9b38b836eeb06b276974d55fede2.png" title="Juanita clicks on Facebook login" width="1922"/>
+                <img src="6c222da29eccbbd873cb5871f83ef54de84c700eca7b888d27fccdd96bba5c8a.png" title="Juanita clicks on Facebook login" width="1922"/>
+                <img src="4b5d0f457677351e9ad5a558c25a759af99f735bb509906172354d7f3eb5e068.png" title="When busca los nombres contenidos en el archivo excel" width="1922"/>
+                <img src="341bf7c524018e6c762f71d65d180ee17f9d1c5d1336d995281c5cb895152414.png" title="When busca los nombres contenidos en el archivo excel" width="1922"/>
+                <img src="dc47d6c00d945373cbfedfc90df7fa18ab54c9470a3a8a432d60cfc32cac70f2.png" title="Juanita enters 'Johan Rojas' into Facebook email" width="1922"/>
+                <img src="51bac08ca1f38d3f9bf1371425bfddd3e7042c65fbcfb43b2621fe1779b936de.png" title="Juanita enters 'Johan Rojas' into Facebook email" width="1922"/>
+                <img src="975e0af33b9ac2acf9545386c10346df223aea33676470bb1cac1034142fa8a1.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="b2e6b76bcd351bef681479f5f202ef7816c998c7491e6f30a5e9e4b9c7e2de7a.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="5e6a93ff713934989bb7270e770f0ff680f3307c44344e556d57875912b1a12f.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="536e9a958d8c65a0abb0100dba644b7b756a5283142b4518fa498418f6a4688f.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="aa267d5e579e9d33c78ce7e783c14713774ca9bd2b4081d3f050243e07ee169f.png" title="Juanita enters 'Thiago P&eacute;rez' into Facebook email" width="1922"/>
+                <img src="05a5d1dfcac17ecfcea28b7a23177c23d1fb2e5172efbc14fdd9adcb1bd02bc4.png" title="Juanita enters 'Thiago P&eacute;rez' into Facebook email" width="1922"/>
+                <img src="9342d015f57c682b4aa272dbef8b9b03cae83dd53e587a98e595d479d5ac8927.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="8d006cbc9c319b38dab8d8d44c4bc4d680e41609bf5b296f54f543474569e8f5.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="c7d9a4eadb19b9a41ca802a6b6cdb7598ffa309c4799f788234b81331942e11a.png" title="Juanita clicks on Facebook pass" width="1922"/>
+                <img src="93c4c0c94816f63ea66b0d8e60e98dfe4fe80ccafadbde8cc3de4bbcd1f211b1.png" title="Juanita clicks on Facebook pass: <span class='success-color'>SUCCESS</span>" width="1922"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

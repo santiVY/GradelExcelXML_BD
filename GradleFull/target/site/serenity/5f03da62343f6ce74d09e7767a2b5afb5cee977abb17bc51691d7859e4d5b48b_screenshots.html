@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="f854c801c921eb8b5b51a451cbda0f180d176e590a9efefca5ef826d16f5b00b.html">Facebook</a></span>
+                > <span class="truncate-60"><a
+                    href="5f03da62343f6ce74d09e7767a2b5afb5cee977abb17bc51691d7859e4d5b48b.html">Search Friends in BD on Facebook </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-08-2018 12:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Facebook</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a web user
+I want to use Facebook
+to search a lot of friends
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Search Friends in BD on Facebook
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Null pointer exception">
+                            Null pointer exception
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.NullPointerException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    co.com.bancolombia.factoring.google.util.readexcel.escribirExcel(readexcel.java
+                                    :99) <br>
+                                    co.com.bancolombia.factoring.google.tasks.BuscarAmigos.performAs(BuscarAmigos.java
+                                    :60) <br>
+                                    co.com.bancolombia.factoring.google.step_definition.GoogleTranslateStepDefinitions.sheSearchFriends(GoogleTranslateStepDefinitions.java
+                                    :65) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java
+                                    :86) <br>
+                                    org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java
+                                    :38) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :538) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java
+                                    :760) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java
+                                    :460) <br>
+                                    org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java
+                                    :206) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1358731806425617028.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="dab6b2d098d23d3ec626e1eee8eced7608aec8b8ed760ef602b86234e65c3375.png" title="Given that juanita opened her browser at facebook home page" width="1920"/>
+                <img src="c4c0da23cee50c21a39ad00f9da4d4ef2d3d40a50aa94c2d423d944d5742c6d7.png" title="Given that juanita opened her browser at facebook home page" width="1920"/>
+                <img src="dab6b2d098d23d3ec626e1eee8eced7608aec8b8ed760ef602b86234e65c3375.png" title="Santiago goes to #OpenTheBrowser" width="1920"/>
+                <img src="fbfad36c357b670f8564ceaadf843cd1ccaeff05cf73caadf53a796861cb29de.png" title="Santiago goes to #OpenTheBrowser" width="1920"/>
+                <img src="dab6b2d098d23d3ec626e1eee8eced7608aec8b8ed760ef602b86234e65c3375.png" title="Santiago opens the Facebook login page" width="1920"/>
+                <img src="c4c0da23cee50c21a39ad00f9da4d4ef2d3d40a50aa94c2d423d944d5742c6d7.png" title="Santiago opens the Facebook login page" width="1920"/>
+                <img src="72984c3e517caa145b3870071a5e6f16a12ef75a074d97ec4fa2cd238e111bf6.png" title="When inicia sesion en facebook svy9602@hotmail.com y Sonlas12sisabe@" width="1920"/>
+                <img src="fbfad36c357b670f8564ceaadf843cd1ccaeff05cf73caadf53a796861cb29de.png" title="Santiago enters 'svy9602@hotmail.com' into Facebook email" width="1920"/>
+                <img src="e200a05a7aee0ecc5c78f1fb6a20d06c20e092fcffa2481c7032a1eb44b111b8.png" title="Santiago enters 'svy9602@hotmail.com' into Facebook email" width="1920"/>
+                <img src="f06a2ce9d8a5e4aff49674d84afde2272ea5b185e0ce399d82dd89fd1a3e6df4.png" title="Santiago enters 'Sonlas12sisabe@' into Facebook pass" width="1920"/>
+                <img src="94d3a253db9b6d3ff0bb04301baa590a6513749b6a72a9fbbd96525ea15c995b.png" title="Santiago enters 'Sonlas12sisabe@' into Facebook pass" width="1920"/>
+                <img src="94d3a253db9b6d3ff0bb04301baa590a6513749b6a72a9fbbd96525ea15c995b.png" title="Santiago clicks on Facebook login" width="1920"/>
+                <img src="026a62b60a6cbb8a4a60697765e225d1ac7c1a1ef874bdb8648ad16d6ed2e6ea.png" title="Santiago clicks on Facebook login" width="1920"/>
+                <img src="72984c3e517caa145b3870071a5e6f16a12ef75a074d97ec4fa2cd238e111bf6.png" title="When busca los nombres contenidos en el archivo excel" width="1920"/>
+                <img src="16097e7e80942f64c81cdf441ca2c3498269d775c8ad326cc53979c26ff3a988.png" title="Santiago enters 'Santiago V&eacute;lez Yepes' into Search people" width="1920"/>
+                <img src="89cbd0a4a164d65311b93350854aeda21408dac526d7239833d5f3cddb677db6.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="0ddf5d767b9e0c9551b2cf3074618a1879c7885a928f902902ae0b0406a3d944.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="67734e5fa57948b5c36c304d758480553f716b292e490fa3a3fa84655df33c80.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="9c5d00ee549145728b5c13ef3a2d2fea174c7d442f423faa7262f3f5f789e1e6.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="bfe8f01687b8c79816a8ed6c8e282bb73e8b6b33ee85849141afefc8167d5d23.png" title="Santiago enters 'Daniel Yepes' into Search people" width="1920"/>
+                <img src="7554bdbc952a08ff663019f230f1ce80086c5e6e784174a02ce12ddab3666935.png" title="Santiago enters 'Daniel Yepes' into Search people" width="1920"/>
+                <img src="ad59f731668313da928f4eea6497e225d0df326409082cfdc8da2c9f7e2693fe.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="90c3f53c4c70eff4d2e67b3ac597a4322afb34bf5cd1e9b73e157c01c2108ab3.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="50e1bddf220496c0bb5ae3b04c7d94320dc84930eee9036406da796837669085.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="f64475af59d816077a21c004245e23d8250135a22b0c0d4e39e3c5841ae50663.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="5f7212361523728481e16994c2b61fdb6fba6256534fe1855e1309e09f0225ae.png" title="Santiago enters 'Luis Fernando V&eacute;lez V&eacute;lez' into Search people" width="1920"/>
+                <img src="0b86e8993e0cb920f8345815f56da26a69941c3be0b96c225a6cafbf5da20510.png" title="Santiago enters 'Luis Fernando V&eacute;lez V&eacute;lez' into Search people" width="1920"/>
+                <img src="eab4055275b43bbc46d1c772f08b3dc9990696a88036957c56723391a717e9d9.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="d611d9d3d98a5232ab9fc94e3b5c6d629cb8018903d67cd550c8ee430c8f7de1.png" title="Santiago clicks on Click in buttom search" width="1920"/>
+                <img src="b0045f08aef1f1b324125edc30003d65b6e60d74b73a9e54f166d8482734860b.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="ca90eed1191b0deddf0319e2da11c51e1b945c7983a20f5253ca5244f4e29d60.png" title="Santiago clicks on Click in the first result" width="1920"/>
+                <img src="376d2dce3cfef25018e117ec17959d69fc8ba5a5c1b25a8baaca2da80cb2c879.png" title="Perform as: Santiago" width="1920"/>
+                <img src="376d2dce3cfef25018e117ec17959d69fc8ba5a5c1b25a8baaca2da80cb2c879.png" title="Perform as: Santiago: <span class='error-color'>ERROR</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>

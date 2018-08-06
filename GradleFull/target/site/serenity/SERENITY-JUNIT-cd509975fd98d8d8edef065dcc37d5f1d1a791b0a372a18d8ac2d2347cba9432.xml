@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Google Translate" skipped="0" tests="1" time="25.74" timestamp="2018-05-24 01:15:00"><testcase name="Translate from English to Spanish"><failure message="&#10;Expected: &quot;kelk&quot;&#10;     but: was &quot;ostukorvi&quot;" type="java.lang.AssertionError">
+Expected: "kelk"
+     but: was "ostukorvi"</failure><system-err>
+Expected: "kelk"
+     but: was "ostukorvi"&#13;
+co.com.bancolombia.factoring.google.step_definition.GoogleTranslateStepDefinitions.sheShouldSeeTheWordInTheScreen(GoogleTranslateStepDefinitions.java:58)&#13;
+✽.she should see the word kelk in the screen(src.test.resources/features/google_translate.feature:12)&#13;
+</system-err></testcase></testsuite>
